@@ -1,3 +1,4 @@
+// To convert ts file into js file we use tsc <file-name>.ts 
 // string 
 let greeting: string = "Maheswar Mahapatra"
 greeting.toLowerCase()

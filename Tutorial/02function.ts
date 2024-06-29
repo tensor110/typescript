@@ -15,13 +15,13 @@ function signUpUser(name: string, age: number, isPaid: boolean){}
 // Arrow function and set default parameter
 let signInUser = (name: string, age: number, isPaid: boolean= false) =>{}
 
-// function addThree(num: number){
-    // return num+ 3
-    // return "Hello"
-// }
-// To avoid this multiple return types 
+// To avoid multiple return types 
 function addThree(num: number):number{
-    return num+ 3
+    return num + 3
+}
+// In arrow function 
+let addFour = (num: number):number => {
+    return num + 4
 }
 
 const heros = ["Thor", "Spiderman", "Ironman"]
